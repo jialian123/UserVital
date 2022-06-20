@@ -1,0 +1,10 @@
+签到命令:
+hset main:uv:sign:in:28023566 20220620 1
+hset main:uv:sign:in:28023566 20220619 1
+hset main:uv:sign:in:28023566 20220618 1
+hset main:uv:sign:in:28023566 20220617 1
+hset main:uv:sign:in:28023566 20220616 1
+hset main:uv:sign:in:28023566 20220615 1
+hset main:uv:sign:in:28023566 20220614 1
+hset main:uv:sign:in:28023566 20220613 1
+hset main:uv:sign:in:28023566 20220612 1

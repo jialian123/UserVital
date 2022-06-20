@@ -1,0 +1,86 @@
+#签到 hash
+    #删除我的签掉记录
+    del main:uv:sign:in:28023566
+    #查看签到记录
+    hgetall main:uv:sign:in:28023566
+    #插入签到记录
+    hset main:uv:sign:in:28023566 20220620 1
+
+#金宝箱 list
+    #查看获得的金宝箱记录
+    main:uv:gold:box:28023566
+
+#钻石宝箱 list
+    #查看获得的钻石宝箱
+    main:uv:jewel:box:28023566
+
+#获得过的宝箱数 string
+    #删除我获得的宝箱数记录
+    del main:uv:my:box:get:num:28023566
+    #我获得的宝箱数
+    get main:uv:my:box:get:num:28023566
+    #修改我获得过的宝箱数
+    set main:uv:my:box:get:num:28023566 10
+
+#获得过的金宝箱数 string
+    #删除我获得的金宝箱数记录
+    del main:uv:my:box:get:gold:num:28023566
+    #我获得的金宝箱数
+    get main:uv:my:box:get:gold:num:28023566
+    #修改我获得过的金宝箱数
+    set main:uv:my:box:get:gold:num:28023566 10
+
+#获得过的钻石宝箱数 string
+    #删除我获得的钻石宝箱数记录
+    del main:uv:my:box:get:jewel:num:28023566
+    #我获得的钻石宝箱数
+    get main:uv:my:box:get:jewel:num:28023566
+    #修改我获得过的钻石宝箱数
+    set main:uv:my:box:get:jewel:num:28023566 10
+
+#打开的宝箱数 string
+    #删除我的打开宝箱的记录
+    del main:uv:my:box:open:num:28023566
+    #查看我打开的宝箱数
+    get main:uv:my:box:open:num:28023566
+    #修改我打开的宝箱数
+    set main:uv:my:box:open:num:28023566 10
+
+#当前未弹窗的宝箱 string
+    #删除我的未弹窗的宝箱记录
+    del main:uv:not:taost:box:num:28023566
+    #查看我的未弹窗的宝箱记录
+    get main:uv:not:taost:box:num:28023566
+    #修改我的未弹窗的宝箱奖励
+    set main:uv:not:taost:box:num:28023566 10
+
+#分享码
+    #删除当天所有的分享码
+    del main:uv:share:code:20220620
+    #查看我的当天的分享码
+    hget main:uv:share:code:20220620 28023566
+    #删除我的当天的分享码
+    hdel main:uv:share:code:20220620 28023566
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
